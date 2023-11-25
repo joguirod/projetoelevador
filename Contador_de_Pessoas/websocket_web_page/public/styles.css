@@ -1,0 +1,45 @@
+body{
+    background-color: #141414;
+    color: rgb(121, 167, 254);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    height: 90vh;
+    font-family: 'Andale Mono'
+}
+
+div.pessoas{
+    border: 5px solid;
+    border-radius: 15px;
+    max-width: 25rem;
+    text-align: center;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#contador{
+    font-size: 4rem;
+}
+
+.footer{
+    font-size: 0.7rem;
+    display: flex;
+    position:absolute;
+    bottom:0;
+    width:100vw;
+    justify-content: space-around;
+}
+
+.atualizacao{
+    display: flex;
+    position:absolute;
+    top:0;
+    flex-direction: column;
+    margin-bottom:0px;
+    text-align: center;
+}
+#data{
+    margin-top: 0px;
+}
